@@ -1,3 +1,3 @@
 module.exports = {
-	"*.{js,ts}": ["prettier --ignore-unknown --write", "eslint --fix --cache"],
+	"*.{js,ts,json,yaml,yml}": ["prettier --ignore-unknown --write", "eslint --fix --cache"],
 };

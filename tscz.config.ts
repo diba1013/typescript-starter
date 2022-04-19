@@ -1,7 +1,7 @@
+import { defineConfig } from "@diba1013/tscz";
 import { version } from "./package.json";
-import { defineConfig } from "@/index";
 
-const NAME = "tscz";
+const NAME = "ts";
 const SOURCE = "src";
 
 function input(name: string): string {
@@ -15,11 +15,6 @@ export default defineConfig({
 			name: "index",
 			input: input("index.ts"),
 			output: ["cjs", "esm", "dts"],
-		},
-		{
-			name: "cli",
-			input: input("cli.ts"),
-			output: ["cjs"],
 		},
 	],
 	define: {

@@ -1,3 +1,3 @@
-# tscz
+# typescript starter
 
-A small wrapper for esbuild rolllup libraries
+This is a template for getting started with a single typescript package.

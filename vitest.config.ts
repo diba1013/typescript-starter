@@ -12,6 +12,7 @@ export default defineConfig({
 		environment: "node",
 		restoreMocks: true,
 		coverage: {
+			provider: "c8",
 			enabled: true,
 			all: true,
 			include: ["src/**/*.ts"],

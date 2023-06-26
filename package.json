@@ -10,7 +10,8 @@
 	},
 	"author": "diba1013",
 	"engines": {
-		"node": ">=16"
+		"node": ">=20",
+		"pnpm": ">=8"
 	},
 	"type": "commonjs",
 	"files": [

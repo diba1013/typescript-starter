@@ -10,9 +10,9 @@
 	},
 	"author": "diba1013",
 	"engines": {
-		"node": ">=20",
-		"pnpm": ">=8"
+		"node": ">=20"
 	},
+	"packageManager": "pnpm@9.3.0+sha512.ee7b93e0c2bd11409c6424f92b866f31d3ea1bef5fbe47d3c7500cdc3c9668833d2e55681ad66df5b640c61fa9dc25d546efa54d76d7f8bf54b13614ac293631",
 	"type": "module",
 	"files": [
 		"dist"
@@ -34,19 +34,19 @@
 		"lint:fix": "eslint --fix ."
 	},
 	"devDependencies": {
-		"@commitlint/cli": "^18.4.3",
-		"@commitlint/config-conventional": "^18.4.3",
-		"@diba1013/eslint-config": "^0.10.0",
-		"@diba1013/prettier-config": "^0.10.0",
+		"@commitlint/cli": "^19.3.0",
+		"@commitlint/config-conventional": "^19.2.2",
+		"@diba1013/eslint-config": "^0.11.1",
+		"@diba1013/prettier-config": "^0.11.1",
 		"@diba1013/tscz": "^0.2.1",
-		"@types/node": "^20.10.5",
-		"@vitest/coverage-v8": "^1.1.0",
+		"@types/node": "^20.14.2",
+		"@vitest/coverage-v8": "^1.6.0",
 		"eslint": "^8.56.0",
-		"husky": "^8.0.3",
-		"lint-staged": "^15.2.0",
-		"prettier": "^3.1.1",
-		"typescript": "^5.3",
-		"vite": "^5.0.10",
-		"vitest": "^1.1.0"
+		"husky": "^9.0.11",
+		"lint-staged": "^15.2.7",
+		"prettier": "^3.3.2",
+		"typescript": "^5.4",
+		"vite": "^5.3.1",
+		"vitest": "^1.6.0"
 	}
 }

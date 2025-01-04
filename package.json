@@ -25,7 +25,7 @@
 	"module": "./dist/index.mjs",
 	"types": "./dist/index.d.ts",
 	"scripts": {
-		"prepare": "husky install",
+		"prepare": "husky",
 		"build": "tscz",
 		"build:watch": "tscz --watch",
 		"test": "vitest run",

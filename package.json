@@ -36,8 +36,7 @@
 	"devDependencies": {
 		"@commitlint/cli": "^19.6.1",
 		"@commitlint/config-conventional": "^19.6.0",
-		"@diba1013/eslint-config": "^0.12.4",
-		"@diba1013/prettier-config": "^0.12.4",
+		"@diba1013/linter": "^0.13.0",
 		"@diba1013/tscz": "^0.2.1",
 		"@types/node": "^22.10.5",
 		"@vitest/coverage-v8": "^2.1.8",

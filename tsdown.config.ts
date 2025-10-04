@@ -9,7 +9,7 @@ export default defineConfig({
 	dts: true,
 	platform: "node",
 	entry: {
-		index: "src/index.ts",
+		index: "lib/main.ts",
 	},
 	format: ["cjs", "esm"],
 	env: {

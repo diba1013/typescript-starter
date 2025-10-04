@@ -3,7 +3,7 @@ import { defineConfig } from "vitest/config";
 export default defineConfig({
 	resolve: {
 		alias: {
-			"@": "/src",
+			"~": "/lib",
 		},
 	},
 	test: {
@@ -13,8 +13,8 @@ export default defineConfig({
 			provider: "v8",
 			enabled: true,
 			all: true,
-			include: ["src/**/*.ts"],
-			exclude: ["src/**/*.types.ts"],
+			include: ["lib/**/*.ts"],
+			exclude: ["lib/**/*.types.ts"],
 			reporter: ["html", "text-summary", "lcovonly"],
 		},
 	},

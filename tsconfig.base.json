@@ -8,6 +8,8 @@
 		"strict": true,
 		"noImplicitOverride": true,
 		"esModuleInterop": true,
-		"isolatedModules": true
+		"isolatedModules": true,
+		"allowImportingTsExtensions": true,
+		"emitDeclarationOnly": true
 	}
 }

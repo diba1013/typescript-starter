@@ -29,6 +29,22 @@ jobs:
         run: |
           pnpm install --frozen-lockfile
 
+      - name: Build
+        run: |
+          pnpm run build
+
+      - name: Test
+        run: |
+          pnpm run test
+
+      - name: Execute
+        run: |
+          echo "Executing ESM CLI:"
+          ./dist/index.js
+
+          echo 'Executing CJS CLI:'
+          ./dist/index.cjs
+
       - name: Lint
         run: |
           pnpm lint

@@ -1,9 +1,17 @@
 #!/usr/bin/env node
 
-import path from "node:path";
+export type MainOutput = {
+	name: string;
+	version: string;
+	path: string;
+};
 
-console.log({
-	name: process.env.__NAME__,
-	version: process.env.__VERSION__,
-	path: path.dirname(process.cwd()),
-});
+export function prepare(): MainOutput {
+	return {
+		name: process.env.__NAME__ ?? "unknown",
+		version: process.env.__VERSION__ ?? "0.0.0",
+		path: import.meta.dirname,
+	};
+}
+
+console.log(prepare());

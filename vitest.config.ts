@@ -17,5 +17,9 @@ export default defineConfig({
 			exclude: ["lib/**/*.types.ts"],
 			reporter: ["html", "text-summary", "lcovonly"],
 		},
+		env: {
+			__NAME__: "typescript-starter",
+			__VERSION__: "1.0.0",
+		},
 	},
 });

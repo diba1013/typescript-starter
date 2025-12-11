@@ -40,11 +40,11 @@ jobs:
       - name: Execute
         run: |
           echo "Executing ESM CLI:"
-          ./dist/index.js
+          ./dist/index.mjs
 
           echo 'Executing CJS CLI:'
           ./dist/index.cjs
 
       - name: Lint
         run: |
-          pnpm lint
+          pnpm run lint

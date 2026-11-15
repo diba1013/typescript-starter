@@ -1,10 +1,11 @@
-import metadata from "./package.json" with { type: "json" };
 import { defineConfig } from "tsdown";
+import metadata from "./package.json" with { type: "json" };
 
 const { name, version } = metadata;
 
 export default defineConfig({
 	name,
+	tsconfig: "tsconfig.build.json",
 	shims: true,
 	dts: true,
 	platform: "node",

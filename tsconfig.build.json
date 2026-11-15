@@ -3,10 +3,7 @@
 	"compilerOptions": {
 		"composite": true,
 		"lib": ["ESNext"],
-		"types": ["node"],
-		"paths": {
-			"~/*": ["./lib/*"]
-		}
+		"types": ["node"]
 	},
 	"include": ["lib/**/*.ts", "test/**/*.ts", "types/**/*.d.ts"]
 }

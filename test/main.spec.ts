@@ -1,5 +1,5 @@
 import { expect, it } from "vitest";
-import { prepare } from "~/main.ts";
+import { prepare } from "../lib/main.ts";
 
 it("main should properly resolve environment and esm syntax in module scope", () => {
 	const cut = prepare();

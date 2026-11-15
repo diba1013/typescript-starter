@@ -9,6 +9,8 @@
 		"noImplicitOverride": true,
 		"esModuleInterop": true,
 		"isolatedModules": true,
+		"verbatimModuleSyntax": true,
+		"rewriteRelativeImportExtensions": true,
 		"allowImportingTsExtensions": true,
 		"noEmit": true,
 		"skipLibCheck": true
